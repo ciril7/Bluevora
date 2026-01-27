@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  @apply bg-slate-950 text-slate-50;
+}
+
+/* Subtle ocean gradient background */
+.ocean-gradient {
+  background: radial-gradient(circle at 0% 0%, #0fb9b133 0, transparent 45%),
+    radial-gradient(circle at 100% 100%, #0b8ecf55 0, transparent 50%),
+    radial-gradient(circle at 0% 100%, #032b4477 0, transparent 55%),
+    radial-gradient(circle at 100% 0%, #7ed3f777 0, transparent 50%);
+}
+
+.card-surface {
+  @apply rounded-xl border border-white/5 bg-slate-900/60 shadow-soft backdrop-blur-xl;
+}
+
+.badge-soft {
+  @apply inline-flex items-center rounded-full px-3 py-1 text-xs font-medium;
+}
+
+.btn-primary {
+  @apply inline-flex items-center justify-center gap-2 rounded-full bg-gradient-to-r from-bluevora-teal to-bluevora hover:from-bluevora hover:to-blue-500 px-5 py-2.5 text-sm font-semibold text-white shadow-soft transition-transform hover:-translate-y-0.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-bluevora-light focus-visible:ring-offset-2 focus-visible:ring-offset-slate-950;
+}
+
+.btn-secondary {
+  @apply inline-flex items-center justify-center gap-2 rounded-full border border-white/10 bg-white/5 px-5 py-2.5 text-sm font-semibold text-slate-50 hover:bg-white/10 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-bluevora-light focus-visible:ring-offset-2 focus-visible:ring-offset-slate-950;
+}
+

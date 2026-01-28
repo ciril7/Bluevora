@@ -62,3 +62,7 @@ Bluevora integrates **IoT sensors, cloud analytics, and a digital marketplace** 
 ![image](https://github.com/ciril7/Bluevora/blob/main/Screenshot%202026-01-28%20192230.png)
 
 
+![image](https://github.com/ciril7/Bluevora/blob/main/Screenshot%202026-01-28%20192258.png)
+
+
+

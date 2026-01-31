@@ -67,5 +67,5 @@ Bluevora integrates **IoT sensors, cloud analytics, and a digital marketplace** 
 
 screen recording - https://drive.google.com/file/d/10BGMsIqaeRFi4QXYP-kwuU41YZeQVRQc/view?usp=sharing
 
-
+survey records and datas - https://drive.google.com/drive/folders/1RJdgnLLoTPW91Y3-CeeLArkJzv0iLHS0
 

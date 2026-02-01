@@ -52,7 +52,47 @@ Bluevora integrates **IoT sensors, cloud analytics, and a digital marketplace** 
 - 🚨 Environmental threshold alerts  
 - 🌱 Seaweed cultivation insights  
 - 🛒 Marketplace preview for direct buyer access  
-- 📱 Fully responsive UI  
+- 📱 Fully responsive UI
+
+
+
+## 📂 Project Structure
+
+/
+├── app/                        # Next.js App Router
+│   ├── dashboard/              # Dashboard page
+│   │   └── page.tsx
+│   ├── login/                  # Login page
+│   │   └── page.tsx
+│   ├── globals.css             # Global styles
+│   ├── layout.tsx              # Root layout
+│   └── page.tsx                # Landing page
+│
+├── components/                 # Reusable UI components
+│   ├── AlertPanel.tsx          # Alert & warning display
+│   ├── ChartSection.tsx        # Data visualization section
+│   ├── MarketplaceCard.tsx     # Marketplace preview cards
+│   ├── MetricCard.tsx          # Sensor metric cards
+│   └── Navbar.tsx              # Navigation bar
+│
+├── data/                       # Mock / static data
+│   └── mockSensorData.ts       # Sample IoT sensor data
+│
+├── .next/                      # Auto-generated build files (ignored in prod)
+├── node_modules/               # Project dependencies
+│
+├── .gitignore
+├── README.md                   # Project documentation
+├── next-env.d.ts               # Next.js TypeScript types
+├── next.config.mjs             # Next.js configuration
+├── package.json                # Dependencies & scripts
+├── package-lock.json
+├── postcss.config.mjs          # PostCSS configuration
+├── tailwind.config.ts          # Tailwind CSS setup
+└── tsconfig.json               # TypeScript configuration
+
+
+
 
 ---
 
